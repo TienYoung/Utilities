@@ -1,5 +1,11 @@
 #pragma once
 
+#ifdef CONVERTER_EXPORTS
+	#define CONVERTER_API __declspec(dllexport)
+#else
+	#define CONVERTER_API __declspec(dllimport)
+#endif
+
 #include <cmath>
 #include <boost/math/constants/constants.hpp>
 

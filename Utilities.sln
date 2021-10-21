@@ -5,16 +5,28 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Converter", "Converter\Converter.vcxproj", "{017ED5D3-412D-4203-8BB2-5140135F9999}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TEST", "TEST\TEST.vcxproj", "{1D33874F-DB65-4181-A78E-75392AAB5C21}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{017ED5D3-412D-4203-8BB2-5140135F9999}.Debug|x64.ActiveCfg = Debug|x64
 		{017ED5D3-412D-4203-8BB2-5140135F9999}.Debug|x64.Build.0 = Debug|x64
+		{017ED5D3-412D-4203-8BB2-5140135F9999}.Debug|x86.ActiveCfg = Debug|x64
 		{017ED5D3-412D-4203-8BB2-5140135F9999}.Release|x64.ActiveCfg = Release|x64
 		{017ED5D3-412D-4203-8BB2-5140135F9999}.Release|x64.Build.0 = Release|x64
+		{017ED5D3-412D-4203-8BB2-5140135F9999}.Release|x86.ActiveCfg = Release|x64
+		{1D33874F-DB65-4181-A78E-75392AAB5C21}.Debug|x64.ActiveCfg = Debug|x64
+		{1D33874F-DB65-4181-A78E-75392AAB5C21}.Debug|x64.Build.0 = Debug|x64
+		{1D33874F-DB65-4181-A78E-75392AAB5C21}.Debug|x86.ActiveCfg = Debug|x64
+		{1D33874F-DB65-4181-A78E-75392AAB5C21}.Release|x64.ActiveCfg = Release|x64
+		{1D33874F-DB65-4181-A78E-75392AAB5C21}.Release|x64.Build.0 = Release|x64
+		{1D33874F-DB65-4181-A78E-75392AAB5C21}.Release|x86.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
