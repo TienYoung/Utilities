@@ -15,7 +15,6 @@ namespace TEST
 			{
 				std::cout << a << " ";
 			}
-			std::cout << std::endl;
 
 			if (args.size() == 3)
 			{
