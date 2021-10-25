@@ -87,6 +87,7 @@
     <ClCompile Include="FieldOfView.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CameraObscura.h" />
     <ClInclude Include="Common.h" />
     <ClInclude Include="Converter.h" />
     <ClInclude Include="FieldOfView.h" />
