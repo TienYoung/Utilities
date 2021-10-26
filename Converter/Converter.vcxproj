@@ -84,6 +84,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CameraObscura.cpp" />
     <ClCompile Include="FieldOfView.cpp" />
   </ItemGroup>
   <ItemGroup>
