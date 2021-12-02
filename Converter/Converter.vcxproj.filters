@@ -24,9 +24,15 @@
     <ClInclude Include="Converter.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="CameraObscura.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="FieldOfView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraObscura.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
